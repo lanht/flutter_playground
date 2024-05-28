@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 }
 
 class CounterWidget extends StatefulWidget {
-  const CounterWidget({Key key, this.intValue = 0});
+  const CounterWidget({Key? key, this.intValue = 0});
 
   final int intValue;
 

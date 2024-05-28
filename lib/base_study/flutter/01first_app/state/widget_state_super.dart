@@ -47,7 +47,7 @@ class TapboxB extends StatelessWidget {
   final bool active;
   final ValueChanged<bool> onChanged;
 
-  TapboxB({Key key, this.active: false, this.onChanged}) : super(key: key);
+  TapboxB({Key? key, this.active: false, required this.onChanged}) : super(key: key);
 
   void _handleTap() {
     onChanged(!active);

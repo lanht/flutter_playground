@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 }
 
 class TopboxA extends StatefulWidget {
-  const TopboxA({Key key}):super(key: key);
+  const TopboxA({Key? key}):super(key: key);
 
   @override
   _TopboxAState createState() => _TopboxAState();

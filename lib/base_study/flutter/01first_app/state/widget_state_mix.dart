@@ -47,7 +47,7 @@ class TapboxC extends StatefulWidget {
   final bool active;
   final ValueChanged<bool> onChanged;
 
-  const TapboxC({Key key, this.active: false, this.onChanged}):super(key: key);
+  const TapboxC({Key? key, this.active: false, required this.onChanged}):super(key: key);
 
   @override
   _TapboxCState createState() => _TapboxCState();
@@ -99,7 +99,7 @@ class _TapboxCState extends State<TapboxC> {
         decoration: BoxDecoration(
           color: widget.active ? Colors.lightGreen[700] : Colors.grey[600],
           border: _hightlight ? Border.all(
-            color: Colors.teal[700],
+            color: Colors.teal[700]!,
             width: 10.0
           ) : null,
         ),
