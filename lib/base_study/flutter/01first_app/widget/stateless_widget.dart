@@ -34,8 +34,8 @@ class MyApp extends StatelessWidget {
 class Echo extends StatelessWidget {
 
   const Echo({
-    Key key,
-    this.text,
+    Key? key,
+    required this.text,
     this.backgroundColor = Colors.grey,
   }) : super(key: key);
 
