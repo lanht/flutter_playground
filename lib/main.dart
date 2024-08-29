@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_playground/base_study/flutter/02base_components/text.dart';
 import 'package:flutter_playground/base_study/flutter/02base_components/button.dart';
+import 'package:flutter_playground/base_study/flutter/02base_components/image.dart';
+import 'package:flutter_playground/base_study/flutter/02base_components/switch.dart';
+import 'package:flutter_playground/base_study/flutter/02base_components/textField.dart';
+import 'package:flutter_playground/base_study/flutter/02base_components/form.dart';
+import 'package:flutter_playground/base_study/flutter/02base_components/progress.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,6 +14,11 @@ void main() {
 final _routerMap = {
   'text': (context) => TextWidget(),
   'button': (context) => ButtonWidget(),
+  'image': (context) => ImageWidegt(),
+  "switch": (context) => SwitchAndCheckBoxWidget(),
+  'textField': (context) => TextFieldWidget(),
+  'form': (context) => FormWidget(),
+  'progress': (context) => ProgressWidget(),
 };
 
 class MyApp extends StatelessWidget {
