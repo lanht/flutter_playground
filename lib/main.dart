@@ -6,6 +6,12 @@ import 'package:flutter_playground/base_study/flutter/02base_components/switch.d
 import 'package:flutter_playground/base_study/flutter/02base_components/textField.dart';
 import 'package:flutter_playground/base_study/flutter/02base_components/form.dart';
 import 'package:flutter_playground/base_study/flutter/02base_components/progress.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/contraints.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/row.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/column.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/flex.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/wrap.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/flow.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,6 +25,12 @@ final _routerMap = {
   'textField': (context) => TextFieldWidget(),
   'form': (context) => FormWidget(),
   'progress': (context) => ProgressWidget(),
+  'constraints': (context) => ConstraintsWidget(),
+  'row': (context) => RowWidget(),
+  'column': (context) => ColumnWidget(),
+  'flex': (context) => FlexWidget(),
+  'wrap': (context) => WrapWidget(),
+  'flow': (context) => FlowWidget(),
 };
 
 class MyApp extends StatelessWidget {
