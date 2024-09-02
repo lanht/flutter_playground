@@ -12,6 +12,10 @@ import 'package:flutter_playground/base_study/flutter/03layout_components/column
 import 'package:flutter_playground/base_study/flutter/03layout_components/flex.dart';
 import 'package:flutter_playground/base_study/flutter/03layout_components/wrap.dart';
 import 'package:flutter_playground/base_study/flutter/03layout_components/flow.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/stack_positioned.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/align.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/center.dart';
+import 'package:flutter_playground/base_study/flutter/03layout_components/layoutbuilder.dart';
 
 void main() {
   runApp(MyApp());
@@ -31,6 +35,10 @@ final _routerMap = {
   'flex': (context) => FlexWidget(),
   'wrap': (context) => WrapWidget(),
   'flow': (context) => FlowWidget(),
+  'stack_positioned': (context) => StackPositionedWidget(),
+  'align': (context) => AlignWidget(),
+  'center': (context) => CenterWidget(),
+  'layoutbuilder': (context) => LayoutBuilderWidget(),
 };
 
 class MyApp extends StatelessWidget {
