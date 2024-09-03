@@ -16,6 +16,10 @@ import 'package:flutter_playground/base_study/flutter/03layout_components/stack_
 import 'package:flutter_playground/base_study/flutter/03layout_components/align.dart';
 import 'package:flutter_playground/base_study/flutter/03layout_components/center.dart';
 import 'package:flutter_playground/base_study/flutter/03layout_components/layoutbuilder.dart';
+import 'package:flutter_playground/base_study/flutter/04container_components/padding.dart';
+import 'package:flutter_playground/base_study/flutter/04container_components/decoratedBox.dart';
+import 'package:flutter_playground/base_study/flutter/04container_components/transform.dart';
+import 'package:flutter_playground/base_study/flutter/04container_components/container.dart';
 
 void main() {
   runApp(MyApp());
@@ -39,6 +43,10 @@ final _routerMap = {
   'align': (context) => AlignWidget(),
   'center': (context) => CenterWidget(),
   'layoutbuilder': (context) => LayoutBuilderWidget(),
+  'padding': (context) => PaddingWidget(),
+  'decoratedBox': (context) => DecoratedBoxWidget(),
+  'transform': (context) => TransformWidget(),
+  'container': (context) => ContainerWidget(),
 };
 
 class MyApp extends StatelessWidget {
