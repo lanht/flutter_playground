@@ -20,6 +20,7 @@ import 'package:flutter_playground/base_study/flutter/04container_components/pad
 import 'package:flutter_playground/base_study/flutter/04container_components/decoratedBox.dart';
 import 'package:flutter_playground/base_study/flutter/04container_components/transform.dart';
 import 'package:flutter_playground/base_study/flutter/04container_components/container.dart';
+import 'package:flutter_playground/base_study/flutter/04container_components/fittedBox.dart';
 
 void main() {
   runApp(MyApp());
@@ -47,6 +48,7 @@ final _routerMap = {
   'decoratedBox': (context) => DecoratedBoxWidget(),
   'transform': (context) => TransformWidget(),
   'container': (context) => ContainerWidget(),
+  'fittedBox': (context) => FittedBoxWidget(),
 };
 
 class MyApp extends StatelessWidget {
